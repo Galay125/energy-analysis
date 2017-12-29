@@ -1,0 +1,20 @@
+events: package pp0 pp1 dram time
+
+fl=tabuada.c
+fn=main
+31 0 0 0 0 0
+cfn=tabuada2
+calls=1 18
+31 391663 291992 427 41443 43788  
+cfn=tabuada
+calls=2 6
+31 161316 114685 427 20020 21431
+
+fn=tabuada2
+18 161316 114685 427 20020 21431
+cfn=tabuada
+calls=1 6
+18 151733 93384 61 21667 26635 
+
+fn=tabuada
+6 228088 176025 427 25269 22167 

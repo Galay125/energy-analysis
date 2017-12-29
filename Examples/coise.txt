@@ -1,0 +1,69 @@
+[0;1;32mVarDecl[0m[0;33m 0x54cae68[0m <[0;33m/home/mario/ClangRapl/Examples/withoutRapl.cpp:23:2[0m, [0;33mcol:15[0m> [0;33mcol:6[0m[0;1;36m a[0m [0;32m'int'[0m cinit
+[0;34m`-[0m[0;1;35mCallExpr[0m[0;33m 0x54caf90[0m <[0;33mcol:10[0m, [0;33mcol:15[0m> [0;32m'int'[0m[0;36m[0m[0;36m[0m
+[0;34m  `-[0m[0;1;35mImplicitCastExpr[0m[0;33m 0x54caf78[0m <[0;33mcol:10[0m> [0;32m'int (*)(void)'[0m[0;36m[0m[0;36m[0m <[0;31mFunctionToPointerDecay[0m>
+[0;34m    `-[0m[0;1;35mDeclRefExpr[0m[0;33m 0x54caf20[0m <[0;33mcol:10[0m> [0;32m'int (void)'[0m[0;36m lvalue[0m[0;36m[0m [0;1;32mFunction[0m[0;33m 0x54ca590[0m[0;1;36m 'dore'[0m [0;32m'int (void)'[0m
+#include <stdio.h>
+#include <stdlib.h>
+
+void tantam();
+
+void abc(){
+ 	CRapl rapl = create_rapl(0); 
+	rapl_before(rapl);
+
+	int x = 1;
+	int s = 0;
+rapl_after(0,rapl);
+}
+
+int dore(){
+ 	CRapl rapl = create_rapl(0); 
+	rapl_before(rapl);
+	int x = 1;
+	printf("Arroz\n");
+	printf("Arroz\n");
+	printf("Arroz\n");
+	for(int i = 0; i < 10; i++){
+		if(i==10)
+		{
+				abc();
+			}
+	}
+	int rapl_after(1,rapl);
+	a = dore();
+	rapl_before(rapl);
+	rapl_after(1,rapl);
+	return 512;
+}
+
+int main() {
+ 	initMeasure();
+ 	CRapl rapl = create_rapl(0); 
+	rapl_before(rapl);
+	int i = 0;
+	for(i = 0; i < 1000; i++){
+				dore();	
+	}
+	printf("Arroz\n");	
+	
+		
+	rapl_after(2,rapl);
+	writeMeasure("withoutRapl"); 
+	return (0); 
+}
+dore();
+	return 512;
+}
+
+int main() {
+	int i = 0;
+	for(i = 0; i < 1000; i++){
+				dore();	
+	}
+	printf("Arroz\n");	
+	
+		
+	return (0); 
+}
+
+Number of functions with CRAPL: 3
