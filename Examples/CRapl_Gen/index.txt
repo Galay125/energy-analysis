@@ -1,0 +1,7 @@
+0:/home/mario/ClangRapl/Examples/templated.cpp:11:5:~Stack<T>
+1:/home/mario/ClangRapl/Examples/templated.cpp:24:1:Stack<T>
+2:/home/mario/ClangRapl/Examples/templated.cpp:30:1:isFull
+3:/home/mario/ClangRapl/Examples/templated.cpp:38:1:push
+4:/home/mario/ClangRapl/Examples/templated.cpp:50:1:isEmpty
+5:/home/mario/ClangRapl/Examples/templated.cpp:58:1:pop
+6:/home/mario/ClangRapl/Examples/templated.cpp:74:1:main

@@ -1,0 +1,358 @@
+events: package pp0 pp1 dram time 
+
+#define function ID Mapping 
+fn=(0) reserve:37 
+fn=(1) assign:49 
+fn=(2) append:68 
+fn=(3) operator+:81 
+fn=(4) operator+:90 
+fn=(5) operator+:100 
+fn=(6) EncodeString:52 
+fn=(7) TiXmlNode:136 
+fn=(8) ~TiXmlNode:147 
+fn=(9) Clear:169 
+fn=(10) LinkEndChild:186 
+fn=(11) InsertEndChild:214 
+fn=(12) InsertBeforeChild:230 
+fn=(13) InsertAfterChild:263 
+fn=(14) ReplaceChild:296 
+fn=(15) RemoveChild:335 
+fn=(16) FirstChild:361 
+fn=(17) LastChild:373 
+fn=(18) IterateChildren:385 
+fn=(19) IterateChildren:399 
+fn=(20) NextSibling:413 
+fn=(21) PreviousSibling:425 
+fn=(22) RemoveAttribute:437 
+fn=(23) FirstChildElement:452 
+fn=(24) FirstChildElement:467 
+fn=(25) NextSiblingElement:482 
+fn=(26) NextSiblingElement:497 
+fn=(27) GetDocument:512 
+fn=(28) ClearThis:565 
+fn=(29) Attribute:577 
+fn=(30) Attribute:597 
+fn=(31) Attribute:629 
+fn=(32) QueryIntAttribute:661 
+fn=(33) QueryUnsignedAttribute:670 
+fn=(34) QueryBoolAttribute:683 
+fn=(35) QueryDoubleAttribute:720 
+fn=(36) SetAttribute:740 
+fn=(37) SetDoubleAttribute:760 
+fn=(38) SetAttribute:780 
+fn=(39) Print:800 
+fn=(40) CopyTo:853 
+fn=(41) Accept:875 
+fn=(42) Clone:889 
+fn=(43) GetText:900 
+fn=(44) LoadFile:965 
+fn=(45) LoadFile:986 
+fn=(46) SaveFile:1084 
+fn=(47) SaveFile:1098 
+fn=(48) CopyTo:1115 
+fn=(49) Clone:1134 
+fn=(50) Print:1145 
+fn=(51) Accept:1156 
+fn=(52) Print:1210 
+fn=(53) Print:1297 
+fn=(54) Clone:1320 
+fn=(55) Print:1332 
+fn=(56) Clone:1366 
+fn=(57) Print:1418 
+fn=(58) Clone:1456 
+fn=(59) Print:1468 
+fn=(60) Clone:1488 
+fn=(61) Add:1514 
+fn=(62) Remove:1529 
+fn=(63) Find:1572 
+fn=(64) FindOrCreate:1583 
+fn=(65) FirstChild:1632 
+fn=(66) FirstChild:1644 
+fn=(67) FirstChildElement:1656 
+fn=(68) FirstChildElement:1668 
+fn=(69) Child:1680 
+fn=(70) Child:1699 
+fn=(71) ChildElement:1718 
+fn=(72) ChildElement:1737 
+fn=(73) VisitEnter:1766 
+fn=(74) VisitExit:1803 
+fn=(75) Visit:1829 
+fn=(76) Visit:1866 
+fn=(77) Visit:1877 
+fn=(78) ConvertUTF32ToUTF8:88 
+fn=(79) TiXmlParsingData:181 
+fn=(80) Stamp:196 
+fn=(81) SkipWhiteSpace:314 
+fn=(82) ReadName:401 
+fn=(83) GetEntity:438 
+fn=(84) StringEqual:534 
+fn=(85) ReadText:574 
+fn=(86) Parse:704 
+fn=(87) SetError:798 
+fn=(88) Identify:818 
+fn=(89) Parse:1043 
+fn=(90) ReadValue:1179 
+fn=(91) Parse:1275 
+fn=(92) Parse:1337 
+fn=(93) Parse:1392 
+fn=(94) Parse:1497 
+fn=(95) Parse:1572 
+fn=(96) Blank:1631 
+fn=(97) XmlTest:30 
+fn=(98) XmlTest:51 
+fn=(99) NullLineEndings:72 
+fn=(100) main:90 
+
+ 
+fl= /home/mario/ClangRapl/tinyxml (2)/tinystr.cpp 
+fn=(0)  
+37 677 608 11 85 93  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinystr.cpp 
+fn=(1)  
+49 923 646 11 88 121  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinystr.cpp 
+fn=(2)  
+68 10970 8780 166 1418 1036  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(6)  
+52 885 684 4 80 91  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(7)  
+136 187 141 3 21 26  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(8)  
+147 5170 4083 82 695 403  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(9)  
+169 3582 2843 56 485 292  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(10)  
+186 6440 5091 102 864 536  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(11)  
+214 80 60 0 7 9  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(12)  
+230 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(13)  
+263 42 31 0 3 6  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(15)  
+335 8 6 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(16)  
+361 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(17)  
+373 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(18)  
+385 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(20)  
+413 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(21)  
+425 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(23)  
+452 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(24)  
+467 8 16 0 1 1  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(25)  
+482 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(27)  
+512 721 524 7 61 90  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(28)  
+565 4022 3192 64 543 320  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(29)  
+577 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(32)  
+661 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(35)  
+720 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(36)  
+740 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(37)  
+760 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(38)  
+780 118 89 0 10 12  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(39)  
+800 859 658 4 77 91  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(40)  
+853 118 89 0 10 15  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(41)  
+875 162 122 0 13 18  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(42)  
+889 131 99 0 11 17  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(43)  
+900 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(44)  
+965 1772 1380 15 186 167  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(45)  
+986 1759 1370 15 185 166  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(46)  
+1084 424 323 0 36 46  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(47)  
+1098 411 313 0 34 45  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(48)  
+1115 42 31 0 3 6  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(50)  
+1145 684 519 0 57 78  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(51)  
+1156 179 135 0 15 20  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(52)  
+1210 680 522 4 62 69  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(53)  
+1297 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(55)  
+1332 238 187 0 20 25  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(56)  
+1366 8 6 0 0 1  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(57)  
+1418 8 6 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(58)  
+1456 8 6 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(59)  
+1468 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(60)  
+1488 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(61)  
+1514 895 692 12 108 77  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(62)  
+1529 75 55 0 12 8  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(63)  
+1572 70 40 0 4 16  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(64)  
+1583 75 57 0 6 8  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(65)  
+1632 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(68)  
+1668 19 15 0 1 2  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(69)  
+1680 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(71)  
+1718 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(72)  
+1737 8 6 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(73)  
+1766 94 70 0 7 11  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(74)  
+1803 17 13 0 1 1  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(75)  
+1829 59 44 0 5 5  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxml.cpp 
+fn=(76)  
+1866 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxmlparser.cpp 
+fn=(78)  
+88 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxmlparser.cpp 
+fn=(79)  
+181 0 0 0 0 3  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxmlparser.cpp 
+fn=(80)  
+196 223 209 3 30 40  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxmlparser.cpp 
+fn=(81)  
+314 1455 1226 23 172 173  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxmlparser.cpp 
+fn=(82)  
+401 5719 4567 90 761 430  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxmlparser.cpp 
+fn=(83)  
+438 0 0 0 0 1  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxmlparser.cpp 
+fn=(84)  
+534 2904 2176 39 308 371  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxmlparser.cpp 
+fn=(85)  
+574 37505 29641 571 4885 2977  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxmlparser.cpp 
+fn=(86)  
+704 147604 116893 2309 19595 11600  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxmlparser.cpp 
+fn=(87)  
+798 607 489 11 92 45  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxmlparser.cpp 
+fn=(88)  
+818 12988 10298 206 1738 1017  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxmlparser.cpp 
+fn=(89)  
+1043 101727 80593 1564 13412 8002  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxmlparser.cpp 
+fn=(90)  
+1179 96719 76641 1485 12791 7615  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxmlparser.cpp 
+fn=(91)  
+1275 1506 1192 24 185 118  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxmlparser.cpp 
+fn=(92)  
+1337 32310 25616 512 4400 2520  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxmlparser.cpp 
+fn=(93)  
+1392 29526 23347 465 3912 2314  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxmlparser.cpp 
+fn=(94)  
+1497 24752 19606 359 3205 1966  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxmlparser.cpp 
+fn=(95)  
+1572 17079 13482 272 2294 1357  
+fl= /home/mario/ClangRapl/tinyxml (2)/tinyxmlparser.cpp 
+fn=(96)  
+1631 66 43 1 8 5  
+fl= /home/mario/ClangRapl/tinyxml (2)/xmltest.cpp 
+fn=(97)  
+30 0 0 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/xmltest.cpp 
+fn=(98)  
+51 25 12 0 0 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/xmltest.cpp 
+fn=(99)  
+72 0 13 0 1 0  
+fl= /home/mario/ClangRapl/tinyxml (2)/xmltest.cpp 
+fn=(100)  
+90 156034 123509 2426 20657 12309  
