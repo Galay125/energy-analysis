@@ -1,2 +1,0 @@
-0:/home/mario/ClangRapl/Examples/arroz.cpp:55:1:main
-1:/home/mario/ClangRapl/Examples/withoutRapl.cpp:59:1:main
